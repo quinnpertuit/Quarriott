@@ -1,3 +1,12 @@
+from selenium import webdriver
+import chromedriver_autoinstaller 
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains 
+
 ## Function to perform search with webdriver
 def perform_search(driver, system_in, location, checkin, checkout, use_code, rate_code, rate_company):
         print("FETCHING: " + location + " | Run Date: " + datetime.now().strftime("%Y-%m-%d") + " | In: " , checkin , " | Out: " + checkout + " | Company: " + rate_company + " | Code: "+rate_code)

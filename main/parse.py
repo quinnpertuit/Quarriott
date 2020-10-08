@@ -1,3 +1,5 @@
+import selenium
+
 ## Function to parse and prepare webdriver
 def parse_results(driver, rate_code, rate_company, location, checkin, checkout):
 
