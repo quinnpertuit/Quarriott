@@ -18,7 +18,12 @@ python3 run.py --help
 
 Example
 ```bash
-python3 marriott.py --system_os "Linux" --checkin "Dec 10" --checkout "Dec 11" --location "Denver, CO" --test 1
+python3 marriott.py \
+  --system_os "Linux" \ 
+  --checkin "Dec 10" \
+  --checkout "Dec 11" \
+  --location "Denver, CO" \
+  --test 1
 ```
 
 ## Notes
