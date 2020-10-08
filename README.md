@@ -4,7 +4,11 @@ Quarriott is a Python command line tool for fetching + comparing hotel prices fo
 
 ## Requirements
 Python 3
+
+## Installation 
 ```bash
+git clone https://github.com/quinnpertuit1/Quarriott
+cd Quarriott
 pip install -r requirements.txt
 ```
 
