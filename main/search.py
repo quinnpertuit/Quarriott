@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains 
+from datetime import datetime
 
 ## Function to perform search with webdriver
 def perform_search(driver, system_in, location, checkin, checkout, use_code, rate_code, rate_company):
