@@ -7,6 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains 
 
+chromedriver_autoinstaller.install()
+
 ## Function to setup and prepare webdriver
 def prepare_driver():
     url = "https://www.marriott.com/search/default.mi"
