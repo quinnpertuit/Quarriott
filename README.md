@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ## Usage
 From the command line
 ```python
-python3 run.py --help
+python3 marriott.py --help
 ```
 
 ## Example
