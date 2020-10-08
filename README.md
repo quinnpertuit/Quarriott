@@ -1,4 +1,4 @@
-# Quarriott
+# Quarriott - Hotel Intel
 
 Quarriott is a Python command line tool for fetching + comparing hotel prices for a variety of corporate codes. 
 
