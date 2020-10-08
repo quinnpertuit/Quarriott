@@ -33,7 +33,7 @@ python3 marriott.py \
 ```
 Run full; fetches prices for all hotels around input location using 70 different corporate rate codes.
 ```bash
-python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
+python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 0
 ```
 
 ## Output
