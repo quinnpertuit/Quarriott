@@ -1,6 +1,6 @@
 # Quarriott - Hotel Intel
 
-Quarriott is a Python command line tool for fetching + comparing hotel prices for a variety of corporate codes. 
+Quarriott is a Python command line tool for fetching and comparing hotel rates for a variety of corporate codes. 
 
 ## Requirements
 Python 3
@@ -31,7 +31,7 @@ python3 marriott.py \
   --location "Denver, CO" \
   --test 1
 ```
-Run full; fetches prices for all hotels around input location using 70 different corporate rate codes.
+Run full; fetches rates for all hotels around input location using 70 different corporate rate codes.
 ```bash
 python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 0
 ```
