@@ -29,7 +29,7 @@ python3 marriott.py \
 ```
 Output is saved as a csv in the output folder.
 
-## Command Line
+## Command Line Tool
 ![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.png)
 
 ## Demo Output Visual
