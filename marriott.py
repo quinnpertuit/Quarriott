@@ -4,6 +4,7 @@ import time
 import argparse
 import selenium
 from datetime import datetime, timedelta
+from sys import platform
 import numpy as np
 import pandas as pd
 from main.driver import *
@@ -22,15 +23,20 @@ Y88b.Y8b88PY88b 888888  888888    888    888Y88..88PY88b. Y88b.
  "Y888888"  "Y88888"Y888888888    888    888 "Y88P"  "Y888 "Y888
        Y8b                                                      \n\nQuarriott - the Marriott Fetcher""", description='Fetch Marriott hotel prices for a location and dates.\nRuns a batch of corporate codes to collect and compare rates.', usage='%(prog)s [options]')
 
-parser.add_argument('-s','--system_os', help='Windows, OSX, or Linux', required=True)
 parser.add_argument('-i','--checkin', help='Check-in date (e.g. "Oct 17")', required=True)
 parser.add_argument('-o','--checkout', help='Check-out date (e.g. "Oct 18")', required=True)
 parser.add_argument('-l','--location', help='Location (examples: "Nashville", "Nashville, TN", "2500 West End Ave, Nashville, TN")', required=True)
 parser.add_argument('-t','--test', help='Enter 1 to run test only, 0 to run full. Test runs one search.', required=True)
 args = vars(parser.parse_args())
 
+if platform == "linux" or platform == "linux2":
+   system_input = 'Linux'
+elif platform == "darwin":
+   system_input = 'OSX'
+elif platform == "win32":
+   system_input = 'Windows'
+  
 ## Parse user command-line inputs
-system_input = args['system_os']   # Linux
 check_in     = args['checkin']  # 'Oct 17'
 check_out    = args['checkout'] # 'Oct 18'
 location_in  = args['location'] # 'Denver, CO'
