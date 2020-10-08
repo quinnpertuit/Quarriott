@@ -28,15 +28,14 @@ python3 marriott.py --help
 Run one test.
 ```bash
 
-python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
+python3 marriott.py -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
 
 ```
 Run full; fetches rates for all hotels around input location using 70 different corporate rate codes.
 ```bash
-python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 0
+python3 marriott.py -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 0
 
 python3 marriott.py \
-  --system_os "Linux" \ 
   --checkin "Dec 10" \
   --checkout "Dec 11" \
   --location "Denver, CO" \
@@ -56,7 +55,7 @@ Output is saved as a csv in the output folder. Output from tests are saved in ou
 ![Vis](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/vis.gif)
 
 ## Notes
-The system_os input argument is used in performing action keys to clear the search input elements depending on your operating system. This tool uses chromedriver_autoinstaller to automatically set up and configure your chrome web driver.
+This tool uses chromedriver_autoinstaller to automatically set up and configure your chrome web driver.
 
 ## Disclaimer
 This repository / project is purely intended for educational and academic purposes. This project and corresponding modules should not be used for any purpose other than learning. Scraping the websites or using the demo material in this repo may be a violation of site policies. Check the terms and conditions of use for any websites you intend to scrape. Use at your own risk. 
