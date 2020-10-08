@@ -9,7 +9,7 @@ Python 3
 ```bash
 git clone https://github.com/quinnpertuit1/Quarriott
 cd Quarriott
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -20,6 +20,9 @@ python3 marriott.py --help
 
 ## Example
 ```bash
+
+python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
+
 python3 marriott.py \
   --system_os "Linux" \ 
   --checkin "Dec 10" \
