@@ -14,7 +14,7 @@ From the command line
 python3 run.py --help
 ```
 
-Example
+## Example
 ```bash
 python3 marriott.py \
   --system_os "Linux" \ 
@@ -23,9 +23,13 @@ python3 marriott.py \
   --location "Denver, CO" \
   --test 1
 ```
-Output saved as a csv in the output folder.
+Output is saved as a csv in the output folder.
 
+## Command Line
 ![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.jpeg)
+
+## Demo Output Visual
+![Vis](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/vis.gif)
 
 ## Notes
 The system_os input argument is used in performing action keys to clear the search input elements depending on your operating system. 
