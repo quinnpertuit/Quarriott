@@ -40,7 +40,7 @@ python3 marriott.py \
   --checkin "Dec 10" \
   --checkout "Dec 11" \
   --location "Denver, CO" \
-  --test 1
+  --test 0
 ```
 
 ## Output
