@@ -1,4 +1,3 @@
-numpy==1.19.1
 selenium==3.141.0
 pandas==1.1.0
 chromedriver_autoinstaller==0.2.2
