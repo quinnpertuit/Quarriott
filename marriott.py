@@ -115,5 +115,9 @@ else:
     print("COMPLETE: Total run time: "+run_duration)
 
 time.sleep(0.5)
-driver.quit()
+
+try: 
+    driver.quit()
+except:
+    print("Driver closed.")
 
