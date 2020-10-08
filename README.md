@@ -12,6 +12,12 @@ cd Quarriott
 pip3 install -r requirements.txt
 ```
 
+Uses a headless chrome driver; if you don't have Chrome installed, run:
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt -y install ./google-chrome-stable_current_amd64.deb
+```
+
 ## Usage
 From the command line
 ```python
