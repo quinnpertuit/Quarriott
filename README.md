@@ -2,8 +2,6 @@
 
 Quarriott is a Python command line tool for fetching + comparing hotel prices for a variety of corporate codes. 
 
-![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.jpeg)
-
 ## Requirements
 Python 3
 ```bash
@@ -25,6 +23,8 @@ python3 marriott.py \
   --location "Denver, CO" \
   --test 1
 ```
+
+![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.jpeg)
 
 ## Notes
 The system_os input argument is used in performing action keys to clear the search input elements depending on your operating system. 
