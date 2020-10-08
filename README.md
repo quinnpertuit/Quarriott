@@ -46,7 +46,7 @@ Output is saved as a csv in the output folder. Output from tests are saved in ou
 ![Vis](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/vis.gif)
 
 ## Notes
-The system_os input argument is used in performing action keys to clear the search input elements depending on your operating system. 
+The system_os input argument is used in performing action keys to clear the search input elements depending on your operating system. This repo uses chromedriver_autoinstaller to automatically set up and configure your chrome web driver.
 
 ## Disclaimer
 This repository / project is purely intended for educational and academic purposes. This project and corresponding modules should not be used for any purpose other than learning. Scraping the websites or using the demo material in this repo may be a violation of site policies. Check the terms and conditions of use for any websites you intend to scrape. Use at your own risk. 
