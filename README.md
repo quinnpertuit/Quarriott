@@ -23,6 +23,7 @@ python3 marriott.py \
   --location "Denver, CO" \
   --test 1
 ```
+Output saved as a csv in the output folder.
 
 ![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.jpeg)
 
