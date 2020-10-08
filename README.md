@@ -28,7 +28,7 @@ python3 marriott.py --help
 Run one test.
 ```bash
 
-python3 marriott.py -t 1
+python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
 
 ```
 Run full; fetches rates for all hotels around input location using 70 different corporate rate codes.
