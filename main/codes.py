@@ -1,3 +1,5 @@
+import pandas as pd
+
 ## Load in corporate rate codes from csv or using in-line data frame below or codes_in = pd.read_csv('./input/marriott-codes-simple.csv', index_col=False)
 codes_in = pd.DataFrame({
             'company': {0: '3M', 1: 'AAA', 2: 'AARP', 3: 'Accenture', 4: 'Advance Purchase Rate',5: 'Aetna',
