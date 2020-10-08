@@ -35,7 +35,9 @@ Run full; fetches prices for all hotels around input location using 70 different
 ```bash
 python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
 ```
-Output is saved as a csv in the output folder.
+
+## Output
+Output is saved as a csv in the output folder. Output from tests are saved in output/tests.
 
 ## Command Line Tool
 ![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.png)
