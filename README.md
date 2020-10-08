@@ -18,7 +18,7 @@ From the command line
 python3 marriott.py --help
 ```
 
-## Example
+## Examples
 ```bash
 
 python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
