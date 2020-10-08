@@ -38,7 +38,8 @@ python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 0
 
 ## Output
 Output is saved as a csv in the output folder. Output from tests are saved in output/tests. 
-Click [here to view sample output csv](https://github.com/quinnpertuit1/Quarriott/blob/main/output/sample-output.csv).
+**Click** [here to view sample output csv](https://github.com/quinnpertuit1/Quarriott/blob/main/output/sample-output.csv).
+
 
 ## Command Line Tool
 ![Demo](https://github.com/quinnpertuit1/Quarriott/raw/main/docs/demo.png)
