@@ -186,7 +186,7 @@ def parse_results(driver, rate_code, rate_company, location, checkin, checkout):
 
     return(out)
 
-## Load in corporate rate codes from csv or using in-line data frame below or codes_in = pd.read_csv('marriott-rate-codes.csv', index_col=False)
+## Load in corporate rate codes from csv or using in-line data frame below or codes_in = pd.read_csv('./input/marriott-codes-simple.csv', index_col=False)
 codes_in = pd.DataFrame({
             'company': {0: '3M', 1: 'AAA', 2: 'AARP', 3: 'Accenture', 4: 'Advance Purchase Rate',5: 'Aetna',
                         6: 'Alaska Airlines',7: 'Allstate', 8: 'American Express', 9: 'Apple', 10: 'AT&T',
@@ -214,7 +214,7 @@ codes_in = pd.DataFrame({
 system_input = args['system_os']   # Linux
 check_in     = args['checkin']  # 'Oct 17'
 check_out    = args['checkout'] # 'Oct 18'
-location_in  = args['location'] # 'Ooltewah, TN'
+location_in  = args['location'] # 'Denver, CO'
 run_test     = args['test']     # 0
 
 ## If user-input args['test'] = 1, run one company search as a test.
