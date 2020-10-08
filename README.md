@@ -19,6 +19,7 @@ python3 marriott.py --help
 ```
 
 ## Examples
+Run one test.
 ```bash
 
 python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
@@ -29,6 +30,10 @@ python3 marriott.py \
   --checkout "Dec 11" \
   --location "Denver, CO" \
   --test 1
+```
+Run full; fetches prices for all hotels around input location using 70 different corporate rate codes.
+```bash
+python3 marriott.py -s Linux -i "Dec 10" -o "Dec 11" -l "Denver, CO" -t 1
 ```
 Output is saved as a csv in the output folder.
 
