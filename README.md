@@ -2,6 +2,12 @@
 
 Quarriott is a Python command line tool for fetching and comparing hotel rates for a variety of corporate codes. 
 
+# Unrelated but Awesome
+
+Unrelated, but equally awesome: [Unhidden Rates on Hotwire](https://q-ttt2.shinyapps.io/hotwire-unhidden/)
+
+I don't maintain any of this. 
+
 ## Requirements
 Python 3
 
